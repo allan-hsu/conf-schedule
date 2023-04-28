@@ -1,51 +1,11 @@
 <ul class="events">
-  <li class="event">
-    <div class="time">
-      <p>9:30am</p>
-      <p>10:30am</p>
-    </div>
-    <h1>Opening Keynote</h1>
-    <h2>
-      <ul>
-        <li>Yehuda Katz</li>
-        <li>Jen Weber</li>
-        <li>Godfrey Chan</li>
-      </ul>
-    </h2>
-    <ul class="images">
-      <li><img src="https://emberconf.com/assets/images/people/yehuda-katz.jpg"></li>
-      <li><img src="https://emberconf.com/assets/images/people/jen-weber.jpg"></li>
-      <li><img src="https://emberconf.com/assets/images/people/godfrey-chan.jpg"></li>
-    </ul>
-  </li>
-  <li class="event">
-    <div class="time">
-      <p>10:45am</p>
-      <p>11:15am</p>
-    </div>
-    <h1>FastFlood: The Story of a Massive Memory Leak in FastBoot Land</h1>
-    <h2>
-      <ul>
-        <li>Sergio Arbeo</li>
-      </ul>
-    </h2>
-    <ul class="images">
-      <li><img src="https://emberconf.com/assets/images/people/sergio-arbeo.jpg"></li>
-    </ul>
-  </li>
-  <li class="event">
-    <div class="time">
-      <p>11:30am</p>
-      <p>12:00pm</p>
-    </div>
-    <h1>Octane: A Paradigm shift in EmberJS</h1>
-    <h2>
-      <ul>
-        <li>Suchita Doshi</li>
-      </ul>
-    </h2>
-    <ul class="images">
-      <li><img src="https://emberconf.com/assets/images/people/suchita-doshi.jpg"></li>
-    </ul>
-  </li>
+  {{#each @model.events as |event|}}
+    <Event
+      @title={{event.fields.name}}
+      @start={{event.fields.start_time}}
+      @end={{event.fields.end_time}}
+      @speakers={{event.fields.speakers}}
+      @images={{array "yehuda-katz" "jen-weber" "godfrey-chan"}}
+    />
+  {{/each}}
 </ul>

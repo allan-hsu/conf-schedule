@@ -1,0 +1,21 @@
+<li class="event">
+  <div class="time">
+    <p>{{@start}}</p>
+    <p>{{@end}}</p>
+  </div>
+  <h1>{{@title}}</h1>
+  <h2>
+    <ul>
+      {{#each @speakers as |speaker|}}
+      <li>{{speaker}}</li>
+      {{/each}}
+    </ul>
+  </h2>
+  <ul class="images">
+    {{#each @speakers as |speaker|}}
+    <li>
+      <img src="https://emberconf.com/assets/images/people/{{anchorize speaker}}.jpg">
+    </li>
+    {{/each}}
+  </ul>
+</li>

@@ -1,0 +1,395 @@
+{
+    "events": [
+      {
+        "id": "recQMxkGUjYnHqoDr",
+        "created_at": "2016-10-30T21:17:58.000Z",
+        "updated_keys": [],
+        "fields": {
+          "name": "Opening Keynote",
+          "speakers": ["Yehuda Katz", "Jen Weber", "Godfrey Chan"],
+          "description": "Join us for a State of the Ember Union by Ember Creator Yehuda Katz and Core Team Members Jen Weber and Godfrey Chan.",
+          "day": ["Tuesday"],
+          "end_time": "10:30am",
+          "start_time": "9:30am"
+        }
+      },
+      {
+        "id": "rec1P9lgPCyoAf30T",
+        "created_at": "2016-10-30T21:17:58.000Z",
+        "updated_keys": [],
+        "fields": {
+          "name": "FastFlood: The Story of a Massive Memory Leak in FastBoot Land",
+          "speakers": ["Sergio Arbeo"],
+          "description": "What would you do if you found a memory leak so big, that most of the data of your requests are leaking? What if everyone on your team was distributed? What if no one on the team shared a timezone?\n\nThis talk presents the typical techniques to find a memory leak and a few unusual ones when dealing with a significant leak.\n\nWe will also discuss how to organize a distributed team to find the leak faster.",
+          "day": ["Tuesday"],
+          "end_time": "11:15am",
+          "start_time": "10:45am",
+          "slides_url": "https://www.dropbox.com/s/jbdn54fc32n7qlf/FastFlood.pptx?dl=0",
+          "transcript_url": "https://thisten.co/rr8x4"
+        }
+      },
+      {
+        "id": "recup6FA0yUEBOUkT",
+        "created_at": "2016-10-30T21:36:49.000Z",
+        "updated_keys": [],
+        "fields": {
+          "name": "Octane: A Paradigm shift in EmberJS",
+          "speakers": ["Suchita Doshi"],
+          "description": "Ember JS is a great choice when it comes to building web apps of any size. However, it does have a reputation for having a steep learning curve along with other issues like the size of the framework, not being productive out of the box, etc. Ember JS's newest edition Ember Octane addresses most of such concerns & rescues the troubled developers. Curious about what features Ember Octane offers? and why is it so different from the previous versions of Ember? This session would cover some important aspects of Ember Octane & an overview of Ember's transformation from its previous versions to Octane.",
+          "day": ["Tuesday"],
+          "end_time": "12:00pm",
+          "start_time": "11:30am",
+          "slides_url": "https://slides.com/suchitadoshi1987/octane-2020/#/",
+          "transcript_url": "https://thisten.co/p3nha"
+        }
+      },
+      {
+        "id": "recFZU3JV9NU7x7HP",
+        "created_at": "2016-10-30T21:36:45.000Z",
+        "updated_keys": [],
+        "fields": {
+          "name": "Break",
+          "day": ["Tuesday"],
+          "end_time": "1:30pm",
+          "start_time": "12:00pm"
+        }
+      },
+      {
+        "id": "rec6uSLcYNuITbDz5",
+        "created_at": "2020-03-17T18:50:03.000Z",
+        "updated_keys": [],
+        "fields": {
+          "name": "Storytime: Georgia's Terrific Colorific Experiment",
+          "day": ["Tuesday"],
+          "end_time": "12:20pm",
+          "start_time": "12:00pm"
+        }
+      },
+      {
+        "id": "recMK1BuDgbJC1AyR",
+        "created_at": "2020-03-17T18:54:42.000Z",
+        "updated_keys": [],
+        "fields": {
+          "name": "Welcome Back!",
+          "day": ["Tuesday"],
+          "end_time": "1:30pm",
+          "start_time": "1:25pm"
+        }
+      },
+      {
+        "id": "rec7PH1Po39c1ZNBZ",
+        "created_at": "2016-10-30T21:36:45.000Z",
+        "updated_keys": [],
+        "fields": {
+          "name": "AST: the Secret Weapon to Transform a Codebase",
+          "speakers": ["Sophia Wang"],
+          "description": "Ever wonder what is metaprogramming? Ever wonder how a machine translates ember code into the websites that you interact with? Want to update your codebase to a newer syntax without going through editing every line? Curious about what linters, codemod, compilers, etc. have in common?\n\nAbstract Syntax Tree (AST)! We'll aim to demystify AST in this talk. You'll realize it’s really fun and cool, and you can leverage this concept to create your own tools!",
+          "day": ["Tuesday"],
+          "end_time": "2:00pm",
+          "start_time": "1:30pm",
+          "slides_url": "https://drive.google.com/open?id=1Nk3Z2GI-YmHhqlZFq7OdEuapkGDjV6Xz",
+          "transcript_url": "https://thisten.co/o4qds"
+        }
+      },
+      {
+        "id": "recRnP0CsCZhjYw2h",
+        "created_at": "2016-10-30T21:36:46.000Z",
+        "updated_keys": [],
+        "fields": {
+          "name": "Taming the Beast: Managing a *really* ambitious codebase",
+          "speakers": ["Luke Deniston"],
+          "description": "What do you do when your codebase gets too big?\n\nEmber is perfect for “ambitious applications”. But what about really ambitious applications? Apps with hundreds of thousands of lines of code, teams that span countries, and users all over the world? Or apps in high liability environments where regressions from upgrades could cost millions of dollars or even put people in danger?\n\nRecent advances in two tools present an opportunity to structure a project that is easy to work in and upgrade, but without the pain points of past solutions. Those tools are Ember Engines, and Yarn workspaces.",
+          "day": ["Tuesday"],
+          "end_time": "2:30pm",
+          "start_time": "2:00pm",
+          "slides_url": "https://www.slideshare.net/LukeDeniston/taming-the-beast-230402258"
+        }
+      },
+      {
+        "id": "recEMn9XBmhrhnkSg",
+        "created_at": "2016-10-30T21:36:46.000Z",
+        "updated_keys": [],
+        "fields": {
+          "name": "Lessons Learned from Changing Careers",
+          "speakers": ["Kara Luton"],
+          "description": "What do ballet, music publicity and front end engineering have in common? More than you would think. Three years ago I didn't know what a div was but I did know I needed a career change. I stumbled upon the tech world, enrolled in a bootcamp and haven't looked back.\n\nNon-traditional paths are becoming more common place in the tech industry. There are more bootcamp and self-taught devs than ever before. In this talk we'll discuss how I bring my past experiences from two unrelated careers into my current role and why you should consider hiring more devs with non-traditional backgrounds.",
+          "day": ["Tuesday"],
+          "end_time": "3:00pm",
+          "start_time": "2:30pm",
+          "slides_url": "https://speakerdeck.com/karaluton/from-tutus-to-tech-lessons-learned-from-changing-careers"
+        }
+      },
+      {
+        "id": "recMXicqhvOWNbniO",
+        "created_at": "2020-03-17T18:53:27.000Z",
+        "updated_keys": [],
+        "fields": {
+          "name": "Halloween Announcements!",
+          "day": ["Tuesday"],
+          "end_time": "3:15pm",
+          "start_time": "3:10pm"
+        }
+      },
+      {
+        "id": "recSZwnMbdn7aRf2A",
+        "created_at": "2016-10-30T21:36:46.000Z",
+        "updated_keys": [],
+        "fields": {
+          "name": "Ember as Song",
+          "speakers": ["James C. Davis"],
+          "description": "Songwriting and programming have much more in common than you might think and Ember is the perfect medium for demonstrating this. This talk will show you just how similar these two disciplines are by creating an Ember Octane app that is actually a piece of music! Components are our instruments and routes are our phrases! We’ll start with a simple riff and build upon it, piece by piece, the same way you’d develop any Ember app, only this is one you can hear! Come join me in building an app note-by-note and experience Ember in a brand new way!",
+          "day": ["Tuesday"],
+          "end_time": "3:40pm",
+          "start_time": "3:15pm",
+          "slides_url": "https://noti.st/jamescdavis/cJT4yE/ember-as-song"
+        }
+      },
+      {
+        "id": "recH5DaPYuenOdEuY",
+        "created_at": "2020-03-17T18:52:16.000Z",
+        "updated_keys": [],
+        "fields": {
+          "name": "Message From Our Sponsor: Nurx",
+          "day": ["Tuesday"],
+          "end_time": "3:45pm",
+          "start_time": "3:40pm"
+        }
+      },
+      {
+        "id": "recelufwGrTPj8TqX",
+        "created_at": "2019-12-20T17:51:25.000Z",
+        "updated_keys": [],
+        "fields": {
+          "name": "Democratizing Frameworks Through Developer Experience",
+          "speakers": ["Sarah Yu"],
+          "description": "Improving the developer experience (DX) of frameworks is often something that is pushed aside for new features. The cost of not understanding how things work results in the misuse of frameworks, bugs and, most importantly, frustrated engineers.\n\nThis talk will explore the concept of DX through the lens of a former journalist. We will go over why having the lowest barrier to entry is important by democratizing development and providing access to information. We will also talk about the consequences of having subpar DX which creates an imbalance of power in the open source/developer ecosystem.",
+          "day": ["Tuesday"],
+          "end_time": "4:00pm",
+          "start_time": "3:45pm",
+          "slides_url": "https://docs.google.com/presentation/d/1pp86yNqodMFK7vykjr4L5tCRovV_WUCjXNZjRmzmLMY/edit?usp=sharing",
+          "transcript_url": "https://thisten.co/e6qwf"
+        }
+      },
+      {
+        "id": "rechAmsdXgYeyyMWd",
+        "created_at": "2016-10-30T21:36:46.000Z",
+        "updated_keys": [],
+        "fields": {
+          "name": "Why JS is Coming to Ember Templates",
+          "speakers": ["Matthew Beale"],
+          "description": "In March 2018 the Ember project announced the abandonment of a long-running effort to improve Ember's dynamic resolution system (aka \"Module Unification\"). We didn't do it, and now we're going to talk about why. Soon, Ember developers are going to be seeing JavaScript in the same files as Ember templates, which opens the door to a new way to organize component implementations.",
+          "day": ["Tuesday"],
+          "end_time": "4:15pm",
+          "start_time": "4:00pm",
+          "slides_url": "https://mixonic.github.io/why-javascript-is-coming-to-ember-templates/public/"
+        }
+      },
+      {
+        "id": "recW4QJvMR05KR4L7",
+        "created_at": "2016-10-30T21:36:48.000Z",
+        "updated_keys": [],
+        "fields": {
+          "name": "Solving Problems for African Soil",
+          "speakers": ["Ridhwana Khan"],
+          "description": "Often smart people build ambitious applications that are meant to solve the world’s problems - like education, food shortages etc. However, the context like limited resources, minimal infrastructure, and smartphone adoption are usually overlooked. Solutions like low bandwidth apps, offline-first solutions are never at the top of the list even though they are sometimes most appropriate.\n\nIn this talk I’d like to walk you through some of the challenges that Africans face and how we can utilise some of Ember’s features as a tool to support relevant and effective solutions.",
+          "day": ["Tuesday"],
+          "end_time": "4:45pm",
+          "start_time": "4:15pm",
+          "slides_url": "https://www.slideshare.net/RidhwanaKhan/emberconf-building-apps-for-african-soil"
+        }
+      },
+      {
+        "id": "rec5bGAdxHH7H5Npb",
+        "created_at": "2020-03-17T23:53:46.000Z",
+        "updated_keys": [],
+        "fields": {
+          "name": "Shift Left",
+          "speakers": ["Melanie Sumner"],
+          "description": "In this talk, we’ll look at both patterns and anti-patterns, consider how we can “shift left” in our own development practice, and consider how we can take that this accessibility journey—together.",
+          "day": ["Tuesday"],
+          "end_time": "5:00pm",
+          "start_time": "4:45pm",
+          "slides_url": "https://www.dropbox.com/s/b6sxjf4urmmxxv8/shift-left.pdf?dl=0"
+        }
+      },
+      {
+        "id": "reckYoJrVxQFxWYub",
+        "created_at": "2016-10-30T21:36:48.000Z",
+        "updated_keys": [],
+        "fields": {
+          "name": "Autotracking: Reactivity and State in Modern Ember",
+          "speakers": ["Chris Garrett"],
+          "description": "Tracked properties are one of the most exciting features introduced in Ember Octane, and they represent a shift in the model for state management in modern Ember apps. But what makes a property \"tracked\"? Why do we have to decorate our properties? And how does this all differ from how other web frameworks think about state?\n\nIn this deep dive talk, I'll discuss the problems of state management and reactivity, and a number of solutions that have evolved over the years. I'll also show the internals of autotracking, and demonstrate some the unique benefits it gives to developers!",
+          "day": ["Wednesday"],
+          "end_time": "10:00am",
+          "start_time": "9:30am",
+          "slides_url": "https://slides.com/pzuraq/autotracking-reactivity-and-state-in-modern-ember#/"
+        }
+      },
+      {
+        "id": "rect2gXdOIO6YgIzG",
+        "created_at": "2016-10-30T21:36:45.000Z",
+        "updated_keys": [],
+        "fields": {
+          "name": "An Octane-Powered JAM Stack",
+          "speakers": ["Chris Manson"],
+          "description": "JAM Stack has become a popular phrase in our industry over the last few years with projects like Gatsby and Vuepress gaining popularity at fantastic speeds. As it is a very new tech stack there is still some innovation that can be added to the mix, and Ember Octane has the power to unlock a whole new generation of JAM Stack developers with the Empress project.",
+          "day": ["Wednesday"],
+          "end_time": "10:40am",
+          "start_time": "10:10am",
+          "slides_url": "https://octane-powered-jam-stack.netlify.com/#/",
+          "transcript_url": "https://thisten.co/8jhzx"
+        }
+      },
+      {
+        "id": "rec03Vz11wEV5hVDz",
+        "created_at": "2020-03-17T16:08:49.000Z",
+        "updated_keys": [],
+        "fields": {
+          "name": "A11y First and Everyone Wins",
+          "speakers": ["Ava Wroten"],
+          "description": "By putting accessibility first we can achieve a far more composable, intuitive, and testable product. Come and listen to the real tale of modern automation testing the untestable: a drag and drop user interface. The story of a drag and drop feature doomed to be unaccessible, made accessible. The telling of a feature salvaged by accessibility. We've all been told accessibility is important, but rarely do we feel the fruits of the labor directly. We'll discuss how developers, QA and leads can all feel the same benefit our users feel by putting accessibility first.",
+          "day": ["Wednesday"],
+          "end_time": "11:25am",
+          "start_time": "10:50am",
+          "slides_url": "https://www.dropbox.com/s/aubi4wb2xz4cant/ava-wroten-presentation-STATIC.pdf?dl=0"
+        }
+      },
+      {
+        "id": "recvSqXajPl7zLQ1R",
+        "created_at": "2016-10-30T21:41:29.000Z",
+        "updated_keys": [],
+        "fields": {
+          "name": "EmberQuest: Building an Octane Role Playing Game",
+          "speakers": ["Dan Monroe"],
+          "description": "Journey with me as I discuss how Ember Octane made building an RPG easier. There are many challenges to make a playable game; rendering maps, moving the player and monsters, player inventory, combat. Never fear, we have magic on our side! \n\nWe'll use a Glimmering component for the main viewport, mini world map, Path Finding, and Fog of War. The magic of Ember-Concurrency will help drive moving and combat. The wizardry of Ember-Auto-Import will allow the use of Konva to draw on our HTML5 canvas. \n\nTogether, with the magic Octane sword I've named Tracked, we'll level-up and complete our EmberQuest!\n\n",
+          "day": ["Wednesday"],
+          "end_time": "11:50am",
+          "start_time": "11:25am",
+          "slides_url": "https://drive.google.com/file/d/1LNOhvq9PQaQeefh33PtIrnaU5kMRD5yA/view"
+        }
+      },
+      {
+        "id": "rec2bXhqNGw84DVKG",
+        "created_at": "2016-10-30T21:41:29.000Z",
+        "updated_keys": [],
+        "fields": {
+          "name": "Break",
+          "day": ["Wednesday"],
+          "end_time": "1:20pm",
+          "start_time": "12:00pm"
+        }
+      },
+      {
+        "id": "rec56mFn7yVwp11NU",
+        "created_at": "2016-10-30T21:41:29.000Z",
+        "updated_keys": [],
+        "fields": {
+          "name": "An Ember Dev's Guide to CSS Grid",
+          "speakers": ["James Steinbach"],
+          "description": "There's plenty of buzz about CSS Grid, but from a distance, it can seem intimidating - especially for developers who don't often write CSS. Grid feels daunting for good reason: the Grid layout module added over 30 new properties, values, and units to CSS!\n\nWhile all of those additions are useful, we can optimize our learning: in this talk, we'll learn the 8 new pieces of Grid spec the will enable us up to build the vast majority of the layouts we'll use in real life! Around these 8 details, we'll start with a brief tour of CSS layout history, and finish with some practical Grid ProTips.",
+          "day": ["Wednesday"],
+          "end_time": "1:50pm",
+          "start_time": "1:20pm",
+          "slides_url": "https://jdsteinbach.com/emberconf-grid/#/"
+        }
+      },
+      {
+        "id": "recIvOTk8WIzwKIBC",
+        "created_at": "2016-10-30T21:41:29.000Z",
+        "updated_keys": [],
+        "fields": {
+          "name": "Stronger App Architecture Using Maps",
+          "speakers": ["Matt Gardner"],
+          "description": "Like the cities they represent, interactive maps are complicated feats of engineering. They are resource-intensive microcosms of state management, requiring special data formats and styling specifications.\n\nWhen the needs of an application go beyond showing points on a map, cartographic applications can quickly grow unwieldy and unsustainable. Throw moving targets, messy data, and squeezed timelines into the mix, and you've got an enormous component that does everything – poorly. This talk discusses the latest mapping technology and approaches to building better components - map-based or otherwise.",
+          "day": ["Wednesday"],
+          "end_time": "2:30pm",
+          "start_time": "1:50pm",
+          "slides_url": "https://docs.google.com/presentation/d/1KkPT0ebm6FZ6IKv3J9DmMdKT4q-LxweOl3ovSV7Ra-0/edit"
+        }
+      },
+      {
+        "id": "recfXMMthjf4tsanB",
+        "created_at": "2016-10-30T21:41:29.000Z",
+        "updated_keys": [],
+        "fields": {
+          "name": "The Power of Debugging",
+          "speakers": ["Samanta de Barros"],
+          "description": "Several tools can help us when trying to find a bug in our code, knowing them can be a very helpful skill. But finding bugs is not the only thing we can get from debugging.\n\nIn this talk, we’ll walk through a series of challenges, and aided by the different debugging tools at our disposal, we will not only fix the issues we have but also learn about Ember, how an Ember app is structured and how to find what you’re looking for, even in production code.",
+          "day": ["Wednesday"],
+          "end_time": "3:05pm",
+          "start_time": "2:40pm"
+        }
+      },
+      {
+        "id": "recp06papFh2Sk3Gq",
+        "created_at": "2016-10-30T21:41:29.000Z",
+        "updated_keys": [],
+        "fields": {
+          "name": "Talking to Your Dog with Ember",
+          "speakers": ["Robert Wagner"],
+          "description": "Have you ever wished you knew what your dog was saying when they were barking? Now you can! We'll use Ember and the Web Audio API to decipher different dog barks and translate them into something more meaningful.\n\n",
+          "day": ["Wednesday"],
+          "end_time": "3:40pm",
+          "start_time": "3:15pm",
+          "slides_url": "https://drive.google.com/file/d/12XWECTAvnwsTAH5AfIbLM-UppBLlRsyy/view",
+          "transcript_url": "https://thisten.co/rvf0a"
+        }
+      },
+      {
+        "id": "recOLLBcUD8bPlYsj",
+        "created_at": "2019-12-20T17:56:08.000Z",
+        "updated_keys": [],
+        "fields": {
+          "name": "The Moderate Programmer",
+          "speakers": ["Derek Gavey"],
+          "description": "The moderate programmer isn't mediocre they are exceptional. Moderate as in \"avoiding extremes of behaviour\" might be the most useful trait a programmer can possess. As programmers \"extreme behaviour\" is almost a given so we need to fight harder to find the right balance. Moderate programmers know where to draw the lines and when to step over them. Using real world examples we will demonstrate what makes a moderate programmer so effective and explore what we can all do to become more moderate.\n\n",
+          "day": ["Wednesday"],
+          "end_time": "4:10pm",
+          "start_time": "3:55pm",
+          "slides_url": "https://drive.google.com/file/d/1T1nXFupNqWn1o8S8Wit4Z968d3lBxfGg/view",
+          "transcript_url": "https://thisten.co/zxglu"
+        }
+      },
+      {
+        "id": "recutREiJnGjSlbBg",
+        "created_at": "2016-10-30T21:41:29.000Z",
+        "updated_keys": [],
+        "fields": {
+          "name": "Why Contributing Seems Scary",
+          "speakers": ["Anne-Greeth van Herwijnen"],
+          "description": "Contributing to an open-source repository might seem scary for a lot of reasons. Maybe you just started with the framework, language or with software development in general. Maybe it is intimidating to try and jump into a project when others are already so invested and knowledgeable. However, contributing to Ember should be something that is accessible to everyone. In this talk I would like to tell my own story of how I became an Ember contributor. Drawing from scientific research, I will show how the community could make it easier for others to get involved.\n\n",
+          "day": ["Wednesday"],
+          "end_time": "4:25pm",
+          "start_time": "4:10pm",
+          "slides_url": "https://noti.st/minthamie/1JZNfM/when-contributing-seems-scary",
+          "transcript_url": "https://thisten.co/bea90"
+        }
+      },
+      {
+        "id": "recHfJcIJyA1Bfdx3",
+        "created_at": "2020-03-18T00:04:46.000Z",
+        "updated_keys": [],
+        "fields": {
+          "name": "Octane Octopus",
+          "speakers": ["Jordan Hawker"],
+          "description": "When it comes to migrations, adopting Ember Octane seems more daunting than most due to its breadth of functionality. However, that’s something to celebrate rather than fear! The independent nature of Octane’s feature set allows us to take an incremental approach to migrating away from classic Ember while mitigating the risk of making many changes at once. We’ll explore recommended paths for preparing your codebase, enabling Octane features, and refactoring existing code to the new patterns, all while continuing to develop your application!",
+          "day": ["Wednesday"],
+          "end_time": "4:45pm",
+          "start_time": "4:25pm"
+        }
+      },
+      {
+        "id": "recP1PGuzvgYIv6PY",
+        "created_at": "2016-10-30T21:41:29.000Z",
+        "updated_keys": [],
+        "fields": {
+          "name": "Closing Keynote",
+          "speakers": ["Nicole Sullivan"],
+          "day": ["Wednesday"],
+          "end_time": "5:20pm",
+          "start_time": "4:45pm"
+        }
+      }
+    ]
+  }
