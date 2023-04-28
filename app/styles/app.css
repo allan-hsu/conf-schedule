@@ -1,1 +1,189 @@
-/* Ember supports plain CSS out of the box. More info: https://cli.emberjs.com/release/advanced-use/stylesheets/ */
+/* Minimal Reset */
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  ol,
+  ul,
+  li {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  ol,
+  ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  /* End Minimal Reset */
+  
+  /* All of the colors used in the original website */
+  :root {
+    --c-primary: rgb(17, 11, 34);
+    --c-primary-dark: rgb(6, 3, 14);
+    --c-black: rgb(17, 11, 34);
+    --c-secondary: rgb(255, 250, 245);
+    --c-white: rgb(255, 250, 245);
+    --c-white-pure: rgb(255, 255, 255);
+    --c-paragraph: rgb(209, 201, 224);
+    --c-paragraph-light: rgb(233, 227, 243);
+    --c-primary-light: rgb(33, 26, 51);
+    --c-primary-xlight: rgb(57, 48, 78);
+    --c-gray-dark: rgb(33, 26, 51);
+    --c-gray: rgb(101, 103, 130);
+    --c-gray-light: rgb(226, 220, 211);
+    --c-silver: rgb(159, 161, 167);
+    --c-diamond: rgb(147, 157, 196);
+    --c-gold: rgb(231, 170, 78);
+    --c-bronze: rgb(199, 145, 124);
+    --c-copper: rgb(209, 164, 159);
+    --c-ember-dark: rgb(207, 73, 46);
+    --c-ember: rgb(225, 93, 68);
+    --c-pink-dark: rgb(150, 63, 82);
+    --c-pink: rgb(213, 106, 129);
+    --c-pink-light: rgb(221, 113, 136);
+    --c-orange: rgb(247, 165, 89);
+    --c-orange-light: rgb(243, 172, 106);
+    --c-orange-xlight: rgb(242, 193, 170);
+    --c-yellow: rgb(245, 203, 97);
+    --c-yellow-light: rgb(255, 215, 113);
+    --c-eggshell: rgb(231, 195, 133);
+    --c-eggshell-light: rgb(245, 226, 194);
+    --c-green-dark: rgb(123, 148, 116);
+    --c-green: rgb(140, 175, 90);
+    --c-green-light: rgb(148, 185, 95);
+    --c-green-xlight: rgb(224, 226, 217);
+    --c-blue-dark: rgb(81, 140, 151);
+    --c-blue: rgb(107, 171, 184);
+    --c-blue-light: rgb(111, 173, 185);
+    --c-purple: rgb(153, 139, 184);
+    --c-purple-light: rgb(162, 147, 192);
+    --c-secondary-paragraph: rgb(77, 75, 73);
+  }
+  
+  html {
+    background-color: #110b22;
+  }
+  
+  body {
+    font-family: "Open Sans", sans-serif;
+    padding: 1rem;
+  }
+  
+  .events {
+    display: grid;
+    gap: 0.3rem;
+  }
+  
+  .event {
+    display: grid;
+    grid-template:
+      ".    .        images" auto
+      "time title    images" auto
+      "time speakers images" auto
+      ".    .        images" auto /
+      10rem 3fr 300px;
+    padding: 0 1rem 0 3rem;
+  }
+  
+  .event:first-child {
+    border-radius: 1rem 1rem 0 0;
+  }
+  
+  .event:nth-child(3n + 1) {
+    background-color: var(--c-pink);
+  }
+  
+  .event:nth-child(3n + 2) {
+    background-color: var(--c-purple);
+  }
+  
+  .event:nth-child(3n + 3) {
+    background-color: var(--c-blue);
+  }
+  
+  .event .time {
+    grid-area: time;
+    text-align: right;
+    display: grid;
+    padding-right: 3rem;
+    grid-template:
+      "start" auto
+      "end" auto
+      "." 1fr;
+  }
+  
+  .event .time p:first-child {
+    grid-area: start;
+    font-weight: bold;
+  }
+  
+  .event .time p:last-child {
+    grid-area: end;
+  }
+  
+  .event > h1 {
+    font-size: 1.6rem;
+    grid-area: title;
+    line-height: 1;
+    font-weight: 900;
+  }
+  
+  .event > h2 {
+    grid-area: speakers;
+  }
+  
+  .event > h2 > ul {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .event > h2 > ul > li {
+    font-size: 1rem;
+  }
+  
+  .event > h2 > ul > li:not(:last-child):after {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    content: "•";
+  }
+  
+  .event > .images {
+    grid-area: images;
+    display: flex;
+    place-content: center flex-end;
+    padding: 0.5rem;
+  }
+  
+  .event > .images > li {
+    display: flex;
+    margin: 0.5rem;
+  }
+  
+  .event > .images img {
+    width: 69px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 70% 70% 70% 70% / 100% 100% 100% 100%;
+    object-fit: cover;
+  }
